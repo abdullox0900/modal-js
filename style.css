@@ -18,14 +18,16 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(to top left, #28b487, #7dd56f);
+  background: linear-gradient(to top left, #1832a398, #d4671f);
 }
 
 .show-modal {
+  margin-top: 20%;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.75rem 3.5rem;
-  margin: 5rem 2rem;
+  /* margin: 5rem 2rem; */
+  outline: none;
   border: none;
   background-color: #fff;
   color: #444;
@@ -67,7 +69,7 @@ p {
   width: 70%;
   background-color: white;
   padding: 6rem;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
